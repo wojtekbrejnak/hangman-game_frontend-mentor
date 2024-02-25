@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "MouseMemoirs";
+  src: url("./assets/fonts/MouseMemoirs-Regular.ttf") format("truetype");
+}
+
 :root {
   --bckg-color: hsl(242, 74%, 27%);
 }
@@ -11,6 +16,7 @@
 }
 
 body {
+  font-family: MouseMemoirs, fantasy;
   height: 100svh;
   display: grid;
   place-items: center;
