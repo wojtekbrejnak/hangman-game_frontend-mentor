@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import HowToPlayInstruction from "../components/HowToPlayIntruction";
+import "./styles.css";
 
 const number01 = "01";
 const topic01 = "CHOOSE A CATEGORY";
@@ -18,21 +19,23 @@ const HowToPlay = () => {
   return (
     <main>
       <Header heading="How to Play" />
-      <HowToPlayInstruction
-        number={number01}
-        topic={topic01}
-        paragraph={paragraph01}
-      />
-      <HowToPlayInstruction
-        number={number02}
-        topic={topic02}
-        paragraph={paragraph02}
-      />
-      <HowToPlayInstruction
-        number={number03}
-        topic={topic03}
-        paragraph={paragraph03}
-      />
+      <article>
+        <HowToPlayInstruction
+          number={number01}
+          topic={topic01}
+          paragraph={paragraph01}
+        />
+        <HowToPlayInstruction
+          number={number02}
+          topic={topic02}
+          paragraph={paragraph02}
+        />
+        <HowToPlayInstruction
+          number={number03}
+          topic={topic03}
+          paragraph={paragraph03}
+        />
+      </article>
     </main>
   );
 };

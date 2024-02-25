@@ -1,0 +1,21 @@
+main {
+  padding: 5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+article {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 2rem;
+  height: 34.375rem;
+  width: 24rem;
+  padding: 2rem;
+}
