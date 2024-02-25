@@ -1,3 +1,7 @@
+:root {
+  --bckg-color: hsl(242, 74%, 27%);
+}
+
 *,
 *::before,
 *::after {
@@ -6,12 +10,9 @@
   box-sizing: border-box;
 }
 
-html {
-  background-color: gray;
-}
-
 body {
   height: 100svh;
   display: grid;
   place-items: center;
+  background-color: var(--bckg-color);
 }

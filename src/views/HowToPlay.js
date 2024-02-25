@@ -16,7 +16,7 @@ const paragraph03 =
 
 const HowToPlay = () => {
   return (
-    <>
+    <main>
       <Header heading="How to Play" />
       <HowToPlayInstruction
         number={number01}
@@ -33,7 +33,7 @@ const HowToPlay = () => {
         topic={topic03}
         paragraph={paragraph03}
       />
-    </>
+    </main>
   );
 };
 
