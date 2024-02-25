@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import HowToPlay from "./views/HowToPlay";
 
 function App() {
   return (
     <>
-    <h1>React App Blueprint</h1>
+      <HowToPlay />
     </>
   );
 }

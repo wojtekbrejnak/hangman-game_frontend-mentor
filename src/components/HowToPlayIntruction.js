@@ -7,3 +7,5 @@ const HowToPlayInstruction = (props) => {
     </article>
   );
 };
+
+export default HowToPlayInstruction;
