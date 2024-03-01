@@ -21,4 +21,5 @@ body {
   background-color: var(--bckg-color);
   display: grid;
   place-items: center;
+  /* border: 14px solid red; */
 }

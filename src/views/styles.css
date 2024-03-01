@@ -1,11 +1,10 @@
 main {
-  height: 100svh;
-  width: calc(100svh / 32 * 45);
-  padding: 5rem;
-  border: 1px solid pink;
+  height: min(calc(100vw / 45 * 32), 100svh, 1024px);
+  width: min(calc(100svh / 32 * 45), 100vw, 1440px);
   background: var(--bckg-color) url("../assets/images/background-desktop.svg")
     no-repeat center;
-  background-size: 100%;
+  background-size: 100% 100%;
+  padding: 7.78%;
 }
 
 h1 {
@@ -13,6 +12,7 @@ h1 {
 }
 
 article {
+  height: 50%;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -21,7 +21,6 @@ article {
 section {
   background-color: white;
   border-radius: 2rem;
-  height: 34.375rem;
   width: 24rem;
   padding: 2rem;
   text-align: center;
