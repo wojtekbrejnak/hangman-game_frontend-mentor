@@ -5,6 +5,33 @@
 
 :root {
   --bckg-color: hsl(242, 74%, 27%);
+  --clr-dark-navy: #261676;
+  --clr-blue: #2463ff;
+  --clr-purple: #887dc0;
+  --clr-gray: #243041;
+  --clr-pink-gradient: linear-gradient(to right, #fe71fe, #7199ff);
+  --clr-blue-gradient: linear-gradient(to top, white, #67b6ff);
+  --desktop-height: 1024px;
+  --desktop-width: 1440px;
+  --desktop-height-scaled: min(
+    calc(100vw / 45 * 32),
+    100svh,
+    var(--desktop-height)
+  );
+  --desktop-width-scaled: min(
+    calc(100svh / 32 * 45),
+    100vw,
+    var(--desktop-width)
+  );
+  --desktop-heading-xl: calc(136 / 1024 * var(--desktop-height-scaled));
+  --desktop-heading-l: calc(88 / 1024 * var(--desktop-height-scaled));
+  --desktop-heading-m: calc(48 / 1024 * var(--desktop-height-scaled));
+  --desktop-heading-s: calc(32 / 1024 * var(--desktop-height-scaled));
+  --desktop-body: calc(26 / 1024 * var(--desktop-height-scaled));
+  --desktop-h1-stroke: calc(8 / 1024 * var(--desktop-height-scaled));
+  --desktop-h1-stroke-minus: calc(
+    var(--desktop-h1-stroke) - 2 * var(--desktop-h1-stroke)
+  );
 }
 
 *,
@@ -21,5 +48,4 @@ body {
   background-color: var(--bckg-color);
   display: grid;
   place-items: center;
-  /* border: 14px solid red; */
 }

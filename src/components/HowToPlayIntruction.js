@@ -1,8 +1,8 @@
 const HowToPlayInstruction = (props) => {
   return (
     <section>
-      <h3>{props.number}</h3>
-      <h4>{props.topic}</h4>
+      <h2>{props.number}</h2>
+      <h3>{props.topic}</h3>
       <p>{props.paragraph}</p>
     </section>
   );

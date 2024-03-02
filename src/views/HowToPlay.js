@@ -1,6 +1,23 @@
 import Header from "../components/Header";
 import HowToPlayInstruction from "../components/HowToPlayIntruction";
 import "./styles.css";
+import styled from "styled-components";
+
+const StyledHeading = styled.h1`
+  h1::before {
+    content: "${(props) => props.shadow}";
+    position: absolute;
+    text-shadow: var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke-minus) 0
+        var(--clr-gray),
+      0 var(--desktop-h1-stroke-minus) 0 var(--clr-gray),
+      var(--desktop-h1-stroke) var(--desktop-h1-stroke-minus) 0 var(--clr-gray),
+      var(--desktop-h1-stroke) 0 0 var(--clr-gray),
+      var(--desktop-h1-stroke) var(--desktop-h1-stroke) 0 var(--clr-gray),
+      0 var(--desktop-h1-stroke) 0 var(--clr-gray),
+      var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke) 0 var(--clr-gray),
+      var(--desktop-h1-stroke-minus) 0 0 var(--clr-gray);
+    transform: translateZ(-1px);var(--clr-gray)
+`;
 
 const number01 = "01";
 const topic01 = "CHOOSE A CATEGORY";
@@ -14,11 +31,14 @@ const number03 = "03";
 const topic03 = "WIN OR LOSE";
 const paragraph03 =
   "You win by guessing all the letters in the word before your health runs out. If the health bar empties before you guess the word, you lose.";
+const heading = "How to Play";
 
 const HowToPlay = () => {
   return (
     <main>
-      <Header heading="How to Play" />
+      <StyledHeading shadow={heading}>
+        <Header heading={heading} />
+      </StyledHeading>
       <article>
         <HowToPlayInstruction
           number={number01}

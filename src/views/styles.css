@@ -1,14 +1,10 @@
 main {
-  height: min(calc(100vw / 45 * 32), 100svh, 1024px);
-  width: min(calc(100svh / 32 * 45), 100vw, 1440px);
+  height: var(--desktop-height-scaled);
+  width: var(--desktop-width-scaled);
   background: var(--bckg-color) url("../assets/images/background-desktop.svg")
     no-repeat center;
   background-size: 100% 100%;
   padding: 7.78%;
-}
-
-h1 {
-  text-align: center;
 }
 
 article {
@@ -24,4 +20,51 @@ section {
   width: 24rem;
   padding: 2rem;
   text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-weight: lighter;
+}
+
+/* h1::before {
+  content: "How to Play";
+  position: absolute;
+  text-shadow: var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke-minus) 0
+      #000,
+    0 var(--desktop-h1-stroke-minus) 0 #000,
+    var(--desktop-h1-stroke) var(--desktop-h1-stroke-minus) 0 #000,
+    var(--desktop-h1-stroke) 0 0 #000,
+    var(--desktop-h1-stroke) var(--desktop-h1-stroke) 0 #000,
+    0 var(--desktop-h1-stroke) 0 #000,
+    var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke) 0 #000,
+    var(--desktop-h1-stroke-minus) 0 0 #000;
+  transform: translateZ(-1px);
+} */
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: var(--desktop-heading-xl);
+  background-image: var(--clr-blue-gradient);
+  background-clip: text;
+  color: transparent;
+  transform-style: preserve-3d;
+}
+
+h2 {
+  font-size: var(--desktop-heading-l);
+  color: var(--clr-blue);
+}
+
+h3 {
+  font-size: var(--desktop-heading-m);
+  color: var(--clr-dark-navy);
+}
+
+p {
+  font-size: var(--desktop-body);
+  color: var(--clr-purple);
 }
