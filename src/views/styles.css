@@ -29,21 +29,6 @@ p {
   font-weight: lighter;
 }
 
-/* h1::before {
-  content: "How to Play";
-  position: absolute;
-  text-shadow: var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke-minus) 0
-      #000,
-    0 var(--desktop-h1-stroke-minus) 0 #000,
-    var(--desktop-h1-stroke) var(--desktop-h1-stroke-minus) 0 #000,
-    var(--desktop-h1-stroke) 0 0 #000,
-    var(--desktop-h1-stroke) var(--desktop-h1-stroke) 0 #000,
-    0 var(--desktop-h1-stroke) 0 #000,
-    var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke) 0 #000,
-    var(--desktop-h1-stroke-minus) 0 0 #000;
-  transform: translateZ(-1px);
-} */
-
 h1 {
   position: relative;
   text-align: center;
