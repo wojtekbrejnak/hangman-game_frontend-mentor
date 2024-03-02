@@ -4,11 +4,11 @@ main {
   background: var(--bckg-color) url("../assets/images/background-desktop.svg")
     no-repeat center;
   background-size: 100% 100%;
-  padding: 7.78%;
+  padding: 5.8% 7.78%;
 }
 
 article {
-  height: 50%;
+  height: 64%;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -16,9 +16,9 @@ article {
 
 section {
   background-color: white;
-  border-radius: 2rem;
-  width: 24rem;
-  padding: 2rem;
+  border-radius: 8.5%;
+  width: 40%;
+  padding: 5% 3.2%;
   text-align: center;
 }
 
@@ -37,19 +37,26 @@ h1 {
   background-clip: text;
   color: transparent;
   transform-style: preserve-3d;
+  margin-bottom: 5.7%;
 }
 
 h2 {
   font-size: var(--desktop-heading-l);
   color: var(--clr-blue);
+  margin-bottom: 14.5%;
 }
 
 h3 {
   font-size: var(--desktop-heading-m);
   color: var(--clr-dark-navy);
+  letter-spacing: 0.14rem;
+  margin-bottom: 14%;
 }
 
 p {
   font-size: var(--desktop-body);
   color: var(--clr-purple);
+  letter-spacing: 0.08rem;
+  padding-inline: 0.5rem;
+  line-height: 1.8rem;
 }
