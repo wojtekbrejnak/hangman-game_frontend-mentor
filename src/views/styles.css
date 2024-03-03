@@ -41,6 +41,20 @@ h1 {
   margin-bottom: 5.7%;
 }
 
+h1::before {
+  position: absolute;
+  text-shadow: var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke-minus) 0
+      var(--clr-gray),
+    0 var(--desktop-h1-stroke-minus) 0 var(--clr-gray),
+    var(--desktop-h1-stroke) var(--desktop-h1-stroke-minus) 0 var(--clr-gray),
+    var(--desktop-h1-stroke) 0 0 var(--clr-gray),
+    var(--desktop-h1-stroke) var(--desktop-h1-stroke) 0 var(--clr-gray),
+    0 var(--desktop-h1-stroke) 0 var(--clr-gray),
+    var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke) 0 var(--clr-gray),
+    var(--desktop-h1-stroke-minus) 0 0 var(--clr-gray);
+  transform: translateZ(-1px);
+}
+
 h2 {
   font-size: var(--desktop-heading-l);
   color: var(--clr-blue);
@@ -75,4 +89,8 @@ button {
   top: 0.22em;
   background-image: var(--clr-pink-gradient);
   left: 0;
+}
+
+.back-button::before {
+  content: "";
 }

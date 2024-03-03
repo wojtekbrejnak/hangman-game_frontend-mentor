@@ -6,17 +6,6 @@ import styled from "styled-components";
 const StyledHeading = styled.h1`
   h1::before {
     content: "${(props) => props.shadow}";
-    position: absolute;
-    text-shadow: var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke-minus) 0
-        var(--clr-gray),
-      0 var(--desktop-h1-stroke-minus) 0 var(--clr-gray),
-      var(--desktop-h1-stroke) var(--desktop-h1-stroke-minus) 0 var(--clr-gray),
-      var(--desktop-h1-stroke) 0 0 var(--clr-gray),
-      var(--desktop-h1-stroke) var(--desktop-h1-stroke) 0 var(--clr-gray),
-      0 var(--desktop-h1-stroke) 0 var(--clr-gray),
-      var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke) 0 var(--clr-gray),
-      var(--desktop-h1-stroke-minus) 0 0 var(--clr-gray);
-    transform: translateZ(-1px);var(--clr-gray)
 `;
 
 const number01 = "01";
