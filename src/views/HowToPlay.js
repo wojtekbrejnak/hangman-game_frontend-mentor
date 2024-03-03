@@ -2,25 +2,21 @@ import Header from "../components/Header";
 import HowToPlayInstruction from "../components/HowToPlayIntruction";
 import "./styles.css";
 import styled from "styled-components";
+import { number01 } from "../data/text";
+import { topic01 } from "../data/text";
+import { paragraph01 } from "../data/text";
+import { number02 } from "../data/text";
+import { topic02 } from "../data/text";
+import { paragraph02 } from "../data/text";
+import { number03 } from "../data/text";
+import { topic03 } from "../data/text";
+import { paragraph03 } from "../data/text";
+import { heading } from "../data/text";
 
 const StyledHeading = styled.h1`
   h1::before {
     content: "${(props) => props.shadow}";
 `;
-
-const number01 = "01";
-const topic01 = "CHOOSE A CATEGORY";
-const paragraph01 =
-  "First, choose a word category, like animals or movies. The computer then randomly selects a secret word from that topic and shows you blanks for each letter of the word.";
-const number02 = "02";
-const topic02 = "GUESS LETTERS";
-const paragraph02 =
-  "Take turns guessing letters. The computer fills in the relevant blank spaces if your guess is correct. If it’s wrong, you lose some health, which empties after eight incorrect guesses.";
-const number03 = "03";
-const topic03 = "WIN OR LOSE";
-const paragraph03 =
-  "You win by guessing all the letters in the word before your health runs out. If the health bar empties before you guess the word, you lose.";
-const heading = "How to Play";
 
 const HowToPlay = () => {
   return (
