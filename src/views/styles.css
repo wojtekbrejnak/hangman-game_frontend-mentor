@@ -10,7 +10,7 @@ main {
 article {
   height: 64%;
   display: flex;
-  gap: 2rem;
+  gap: 2.6%;
   justify-content: center;
 }
 
@@ -18,7 +18,7 @@ section {
   background-color: white;
   border-radius: 8.5%;
   width: 40%;
-  padding: 5% 3.2%;
+  padding: 5% 3.5%;
   text-align: center;
 }
 
@@ -43,20 +43,20 @@ h1 {
 h2 {
   font-size: var(--desktop-heading-l);
   color: var(--clr-blue);
-  margin-bottom: 14.5%;
+  margin-bottom: 14.7%;
 }
 
 h3 {
   font-size: var(--desktop-heading-m);
   color: var(--clr-dark-navy);
-  letter-spacing: 0.14rem;
-  margin-bottom: 14%;
+  letter-spacing: 0.05em;
+  margin-bottom: 15%;
 }
 
 p {
   font-size: var(--desktop-body);
   color: var(--clr-purple);
-  letter-spacing: 0.08rem;
-  padding-inline: 0.5rem;
-  line-height: 1.8rem;
+  letter-spacing: 0.05em;
+  padding-inline: 0.2em;
+  line-height: 1.2em;
 }
