@@ -5,6 +5,7 @@ main {
     no-repeat center;
   background-size: 100% 100%;
   padding: 5.8% 7.78%;
+  position: relative;
 }
 
 article {
@@ -59,4 +60,19 @@ p {
   letter-spacing: 0.05em;
   padding-inline: 0.2em;
   line-height: 1.2em;
+}
+
+button {
+  all: unset;
+}
+
+.back-button {
+  width: var(--back-button-size);
+  height: var(--back-button-size);
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0.22em;
+  background-image: var(--clr-pink-gradient);
+  left: 0;
 }
