@@ -11,6 +11,12 @@
   --clr-gray: #243041;
   --clr-pink-gradient: linear-gradient(to bottom, #fe71fe, #7199ff);
   --clr-blue-gradient: linear-gradient(to top, white, #67b6ff);
+  --clr-background-gradient: linear-gradient(
+    to bottom,
+    #1a043a,
+    #151278 75%,
+    #2b1677
+  );
   --desktop-height: 1024px;
   --desktop-width: 1440px;
   --desktop-height-scaled: min(

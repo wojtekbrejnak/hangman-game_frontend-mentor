@@ -6,6 +6,18 @@ main {
   background-size: 100% 100%;
   padding: 5.8% 7.78%;
   position: relative;
+  z-index: 1;
+}
+
+main::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: var(--clr-background-gradient);
+  opacity: 75%;
+  z-index: -1;
 }
 
 article {
