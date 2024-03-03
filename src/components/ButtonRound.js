@@ -1,5 +1,11 @@
+import Arrow from "./Arrow";
+
 const ButtonRound = (props) => {
-  return <button className="back-button"></button>;
+  return (
+    <button className="back-button">
+      <Arrow />
+    </button>
+  );
 };
 
 export default ButtonRound;

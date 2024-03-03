@@ -9,7 +9,7 @@
   --clr-blue: #2463ff;
   --clr-purple: #887dc0;
   --clr-gray: #243041;
-  --clr-pink-gradient: linear-gradient(to bottom, #fe71fe, #7199ff);
+  --clr-pink-gradient: linear-gradient(to bottom, #fe71fe 20%, #7199ff);
   --clr-blue-gradient: linear-gradient(to top, white, #67b6ff);
   --clr-background-gradient: linear-gradient(
     to bottom,
@@ -38,7 +38,6 @@
   --desktop-h1-stroke-minus: calc(
     var(--desktop-h1-stroke) - 2 * var(--desktop-h1-stroke)
   );
-  --back-button-size: 0.7em;
 }
 
 *,
