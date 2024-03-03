@@ -2,9 +2,9 @@ import Arrow from "./Arrow";
 
 const ButtonRound = (props) => {
   return (
-    <button className="back-button">
+    <a href="#" className="back-button">
       <Arrow />
-    </button>
+    </a>
   );
 };
 
