@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import HowToPlayInstruction from "../components/HowToPlayIntruction";
-import "./styles.css";
+// import "./styles.css";
+import { BackgroundOpacity } from "../styles/BackgroundOpacity";
 import styled from "styled-components";
 import {
   number01,
@@ -24,7 +25,7 @@ const StyledArticle = styled.article`
 
 const HowToPlay = () => {
   return (
-    <main>
+    <BackgroundOpacity as="main">
       <Header heading={heading} />
       <StyledArticle as="article">
         <HowToPlayInstruction
@@ -43,7 +44,7 @@ const HowToPlay = () => {
           paragraph={paragraph03}
         />
       </StyledArticle>
-    </main>
+    </BackgroundOpacity>
   );
 };
 

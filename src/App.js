@@ -1,4 +1,3 @@
-import "./App.css";
 import HowToPlay from "./views/HowToPlay";
 
 function App() {
