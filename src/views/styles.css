@@ -20,14 +20,6 @@ main::before {
   z-index: -1;
 }
 
-section {
-  background-color: white;
-  border-radius: 8.5%;
-  width: 40%;
-  padding: 5% 3.5%;
-  text-align: center;
-}
-
 h1,
 h2,
 h3,
