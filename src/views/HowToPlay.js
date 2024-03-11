@@ -31,6 +31,12 @@ const StyledHeading = styled.h1`
     transform: translateZ(-1px);
   }
 `;
+const StyledArticle = styled.article`
+  height: 64%;
+  display: flex;
+  gap: 2.6%;
+  justify-content: center;
+`;
 
 const HowToPlay = () => {
   return (
@@ -38,7 +44,7 @@ const HowToPlay = () => {
       <StyledHeading shadow={heading}>
         <Header heading={heading} />
       </StyledHeading>
-      <article>
+      <StyledArticle as="article">
         <HowToPlayInstruction
           number={number01}
           topic={topic01}
@@ -54,7 +60,7 @@ const HowToPlay = () => {
           topic={topic03}
           paragraph={paragraph03}
         />
-      </article>
+      </StyledArticle>
     </main>
   );
 };

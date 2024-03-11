@@ -37,20 +37,16 @@ const StyledButton = styled.a`
 
 export const BackButton = () => {
   return (
-    <StyledButton>
-      <a href="#">
-        <Arrow />
-      </a>
+    <StyledButton as="a" href="#">
+      <Arrow />
     </StyledButton>
   );
 };
 
 export const MenuButton = () => {
   return (
-    <StyledButton>
-      <a href="#">
-        <Arrow />
-      </a>
+    <StyledButton as="a" href="#">
+      <Arrow />
     </StyledButton>
   );
 };

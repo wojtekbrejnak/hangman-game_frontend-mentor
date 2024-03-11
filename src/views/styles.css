@@ -20,13 +20,6 @@ main::before {
   z-index: -1;
 }
 
-article {
-  height: 64%;
-  display: flex;
-  gap: 2.6%;
-  justify-content: center;
-}
-
 section {
   background-color: white;
   border-radius: 8.5%;
