@@ -35,14 +35,22 @@ const StyledButton = styled.a`
   }
 `;
 
-const ButtonRound = () => {
+export const BackButton = () => {
   return (
     <StyledButton>
-      <a href="#" className="back-button">
+      <a href="#">
         <Arrow />
       </a>
     </StyledButton>
   );
 };
 
-export default ButtonRound;
+export const MenuButton = () => {
+  return (
+    <StyledButton>
+      <a href="#">
+        <Arrow />
+      </a>
+    </StyledButton>
+  );
+};

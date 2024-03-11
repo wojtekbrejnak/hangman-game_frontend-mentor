@@ -1,9 +1,9 @@
-import ButtonRound from "./ButtonRound";
+import { BackButton } from "./ButtonRound";
 
 const Header = (props) => {
   return (
     <>
-      <ButtonRound />
+      <BackButton />
       <h1>{props.heading}</h1>
     </>
   );
