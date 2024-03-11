@@ -2,20 +2,23 @@ import Header from "../components/Header";
 import HowToPlayInstruction from "../components/HowToPlayIntruction";
 import "./styles.css";
 import styled from "styled-components";
-import { number01 } from "../data/text";
-import { topic01 } from "../data/text";
-import { paragraph01 } from "../data/text";
-import { number02 } from "../data/text";
-import { topic02 } from "../data/text";
-import { paragraph02 } from "../data/text";
-import { number03 } from "../data/text";
-import { topic03 } from "../data/text";
-import { paragraph03 } from "../data/text";
-import { heading } from "../data/text";
+import {
+  number01,
+  topic01,
+  paragraph01,
+  number02,
+  topic02,
+  paragraph02,
+  number03,
+  topic03,
+  paragraph03,
+  heading,
+} from "../data/text";
 
 const StyledHeading = styled.h1`
   h1::before {
     content: "${(props) => props.shadow}";
+  }
 `;
 
 const HowToPlay = () => {
