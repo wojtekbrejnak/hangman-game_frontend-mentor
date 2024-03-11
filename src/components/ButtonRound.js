@@ -2,6 +2,8 @@ import Arrow from "./Arrow";
 import styled from "styled-components";
 
 const StyledButton = styled.a`
+  font-size: var(--desktop-heading-xl);
+  transform-style: preserve-3d;
   width: 0.7em;
   height: 0.7em;
   border-radius: 50%;

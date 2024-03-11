@@ -15,22 +15,6 @@ import {
   heading,
 } from "../data/text";
 
-const StyledHeading = styled.h1`
-  h1::before {
-    content: "${(props) => props.shadow}";
-    position: absolute;
-    text-shadow: var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke-minus) 0
-        var(--clr-gray),
-      0 var(--desktop-h1-stroke-minus) 0 var(--clr-gray),
-      var(--desktop-h1-stroke) var(--desktop-h1-stroke-minus) 0 var(--clr-gray),
-      var(--desktop-h1-stroke) 0 0 var(--clr-gray),
-      var(--desktop-h1-stroke) var(--desktop-h1-stroke) 0 var(--clr-gray),
-      0 var(--desktop-h1-stroke) 0 var(--clr-gray),
-      var(--desktop-h1-stroke-minus) var(--desktop-h1-stroke) 0 var(--clr-gray),
-      var(--desktop-h1-stroke-minus) 0 0 var(--clr-gray);
-    transform: translateZ(-1px);
-  }
-`;
 const StyledArticle = styled.article`
   height: 64%;
   display: flex;
@@ -41,9 +25,7 @@ const StyledArticle = styled.article`
 const HowToPlay = () => {
   return (
     <main>
-      <StyledHeading shadow={heading}>
-        <Header heading={heading} />
-      </StyledHeading>
+      <Header heading={heading} />
       <StyledArticle as="article">
         <HowToPlayInstruction
           number={number01}

@@ -19,21 +19,3 @@ main::before {
   opacity: 75%;
   z-index: -1;
 }
-
-h1,
-h2,
-h3,
-p {
-  font-weight: lighter;
-}
-
-h1 {
-  position: relative;
-  text-align: center;
-  font-size: var(--desktop-heading-xl);
-  background-image: var(--clr-blue-gradient);
-  background-clip: text;
-  color: transparent;
-  transform-style: preserve-3d;
-  margin-bottom: 5.7%;
-}
