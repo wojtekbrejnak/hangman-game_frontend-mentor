@@ -73,38 +73,3 @@ p {
   padding-inline: 0.2em;
   line-height: 1.2em;
 }
-
-.back-button {
-  width: 0.7em;
-  height: 0.7em;
-  border-radius: 50%;
-  position: absolute;
-  top: 0.22em;
-  background-image: var(--clr-pink-gradient);
-  left: 0;
-  display: grid;
-  place-items: center;
-  box-shadow: inset 0 -0.05em 0.007em hsla(273, 75%, 49%, 0.4);
-  z-index: 1;
-  transition: opacity, box-shadow 300ms;
-}
-
-.back-button::before {
-  content: "";
-  background-color: white;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  border-radius: 50%;
-  opacity: 0;
-  transition: opacity 300ms;
-}
-
-.back-button:hover::before {
-  cursor: pointer;
-  opacity: 15%;
-}
-
-.back-button:hover {
-  box-shadow: inset 0 -0.05em 0.007em 0.055em hsla(273, 88%, 49%, 0.4);
-}

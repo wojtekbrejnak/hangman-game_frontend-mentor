@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const StyledSVG = styled.svg`
   position: absolute;
-  top: 24%;
+  top: 23.5%;
+  left: 28.5%;
   height: calc(39 / 1024 * var(--desktop-height-scaled));
   width: calc(41 / 1024 * var(--desktop-height-scaled));
 `;
