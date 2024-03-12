@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import HowToPlayInstruction from "../components/HowToPlayIntruction";
-// import "./styles.css";
 import { BackgroundOpacity } from "../styles/BackgroundOpacity";
 import styled from "styled-components";
 import {
